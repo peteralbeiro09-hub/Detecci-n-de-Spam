@@ -1,0 +1,44 @@
+{
+  "model": "Goodmotion/spam-mail-classifier",
+  "dataset": "UCI SMS Spam Collection (deduplicated)",
+  "n_messages": 5171,
+  "n_spam": 653,
+  "n_ham": 4518,
+  "roc_auc": 0.6140264533155451,
+  "average_precision": 0.17513368375984,
+  "recommended_threshold": 0.9986,
+  "threshold_0_5": {
+    "threshold": 0.5,
+    "accuracy": 0.4275768710114098,
+    "precision": 0.14757103574702107,
+    "recall": 0.7396630934150077,
+    "f1": 0.24605196128374937,
+    "confusion_matrix": [
+      [
+        1728,
+        2790
+      ],
+      [
+        170,
+        483
+      ]
+    ]
+  },
+  "threshold_best": {
+    "threshold": 0.9985925555229187,
+    "accuracy": 0.6735641075227229,
+    "precision": 0.18579234972677597,
+    "recall": 0.4686064318529862,
+    "f1": 0.26608695652173914,
+    "confusion_matrix": [
+      [
+        3177,
+        1341
+      ],
+      [
+        347,
+        306
+      ]
+    ]
+  }
+}

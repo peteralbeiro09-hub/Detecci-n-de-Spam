@@ -1,0 +1,18 @@
+# Python 3.13
+--extra-index-url https://download.pytorch.org/whl/cpu
+torch==2.15.0
+transformers==5.22.2
+tokenizers==0.23.3
+safetensors==0.8.0
+sentencepiece==0.2.3
+protobuf==7.36.2
+numpy==2.5.4
+pandas==3.1.1
+scikit-learn==1.9.1
+streamlit==1.67.0
+matplotlib==3.11.2
+seaborn==0.13.2
+wordcloud==1.9.6
+jupyter==1.1.1
+nbconvert==7.17.2
+ipykernel==7.4.0
